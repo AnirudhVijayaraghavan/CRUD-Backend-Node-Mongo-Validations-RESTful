@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 
 
 const PORT = 3000;
-const newmongooseconnect = "mongodb+srv://Anirudhv1997:admin123@cluster0.kapz18z.mongodb.net/?retryWrites=true&w=majority";
+const newmongooseconnect = "mongodb+srv://<username>:<password>@<clusterlink>.mongodb.net/?retryWrites=true&w=majority";
 mongoose
   .connect(
     newmongooseconnect
